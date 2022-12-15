@@ -6,7 +6,7 @@ def count_batteries_by_usage(cycles):
   if (cycles<310):
     return lowCount+=cycles;
   if (310<cycles<=929): 
-     return mediumCount+=cycles;
+    return mediumCount+=cycles;
   if (cycles>=930):
     return highCount+=cycles;
   
