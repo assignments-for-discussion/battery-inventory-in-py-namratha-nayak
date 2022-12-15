@@ -1,10 +1,15 @@
 
 def count_batteries_by_usage(cycles):
-  return {
     "lowCount": 0,
     "mediumCount": 0,
     "highCount": 0
-  }
+  if (cycles<310):
+    return lowCount+=cycles;
+  if (310<cycles<=929): 
+     return mediumCount+=cycles;
+  if (cycles>=930):
+    return highCount+=cycles;
+  
 
 
 def test_bucketing_by_number_of_cycles():
